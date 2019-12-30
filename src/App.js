@@ -1,6 +1,8 @@
 import React from 'react';
 
-function App() {
+//Passing store object in as store prop
+
+function App(store) {
   return (
     <main className='App'>
       {/* content goes here */}
