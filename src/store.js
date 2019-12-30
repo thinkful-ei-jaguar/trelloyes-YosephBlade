@@ -1,4 +1,4 @@
-const STORE = {
+const store = {
   lists: [
     {
       id: '1',
@@ -38,4 +38,4 @@ const STORE = {
   },
 }
 
-export default STORE;
+export default store;
