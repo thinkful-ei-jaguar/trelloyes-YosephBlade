@@ -1,11 +1,11 @@
 import React from 'react';
-import 'styles/card-styles.css'
+import './Card.css'
 
-function Card (title, content) {
+function Card (props) {
     return (
     <div className="Card">
-        <h3>{title}</h3>
-        <p>{content}</p>
+        <h3>{props.title}</h3>
+        <p>{props.content}</p>
     </div>
     );
     
